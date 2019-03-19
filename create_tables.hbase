@@ -1,0 +1,8 @@
+# the table short_term_tweet should contain the 100 latest tweet counts
+# the table should identify easily the best
+create 'short_term_tweet', 'tweet_count', 'date'
+
+
+create 'word_count_tweets_table', 'word_count'
+create 'predictions_tweets_table', 'tweet_count'
+create 'text_tweets_table', 'metadata', 'text_data'
